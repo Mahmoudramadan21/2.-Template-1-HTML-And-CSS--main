@@ -275,11 +275,11 @@ header .links ul li a:hover {
 .services .services-content .srv {
     display: flex;
     margin-bottom: 25px;
+    gap: 15px;
 }
 
 .services .services-content .srv i {
     color: var(--main-color);
-    margin-top: 30px;
     flex-basis: 60px;
 }
 
@@ -480,6 +480,9 @@ header .links ul li a:hover {
 
 .contact .info .social i {
     margin-left: 15px;
+    color: var(--secondary-color);
+}
+.contact .info .social i:hover {
     color: var(--secondary-color);
 }
 
